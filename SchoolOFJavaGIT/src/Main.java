@@ -14,6 +14,10 @@ public class Main {
             sum_of_elements = sum_of_elements + element;
         }
         System.out.println(sum_of_elements);
+        int multiplication_of_elemnts = 1;
+        for (int element : lista_elemente)
+            multiplication_of_elemnts *= element;
+
     }
 
 
