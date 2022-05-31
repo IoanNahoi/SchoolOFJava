@@ -17,7 +17,7 @@ public class Main {
         int multiplication_of_elemnts = 1;
         for (int element : lista_elemente)
             multiplication_of_elemnts *= element;
-
+        System.out.println(multiplication_of_elemnts);
     }
 
 
